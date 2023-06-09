@@ -1,12 +1,12 @@
 env:
   # Telegram
-  TG_CHAT: "@DumprXDumps"
-  TG_TOKEN: ENCRYPTED[2a89720bfbe3d4987b7957bfe6cb250027ccc85106ef5089ac5f335e4cd53b84795fba8b110e8c8888427a35088c9702]
+  TG_CHAT: "@Sikedumps"
+  TG_TOKEN: ENCRYPTED[!3bf69b5334ddc8bdccaebfc6bf2c17a30a85daa762d5157430a82a1c11a0f37b3190bdaea1f692ec21859d858f3f153d!]
   
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: Android-Dumps
-  GITLAB_TOKEN: ENCRYPTED[86ee4e92f3a156c35d43a8e6617dff5ef4fe83cdf6b46ae7060b55f96049d25a64d3e0b1f34e4166e5d33cf98d1cb60d]
+  GITLAB_GROUP: rex_vili
+  GITLAB_TOKEN: ENCRYPTED[!32695bba9c1adc7a20b494b305e770cc5e2db99274636a9a815def379a3f31aab916cd8227118ff9a3c9f78b2be9786e!]
 
   # Private SSH Key
   PRIV_SSH_KEY: ENCRYPTED[991b9f9111329b8e8135040d22ec23508a560304dac1ef13d515eef2cdef4c15bbfaf329403d55b913af2b74c9e08edb]
@@ -32,8 +32,8 @@ task:
       - chmod 600 ~/.ssh/id_rsa
 
   Setup_script:
-      - git config --global user.name "Sushrut1101"
-      - git config --global user.email "guptasushrut@gmail.com"
+      - git config --global user.name "SuperiorPsycho"
+      - git config --global user.email "pranjal.loner@gmail.com"
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
@@ -66,8 +66,8 @@ task:
       - chmod 600 ~/.ssh/id_rsa
 
   Setup_script:
-      - git config --global user.name "Sushrut1101"
-      - git config --global user.email "guptasushrut@gmail.com"
+      - git config --global user.name "SuperiorPyscho"
+      - git config --global user.email "pranjal.loner@gmail.com"
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
@@ -100,8 +100,8 @@ task:
       - chmod 600 ~/.ssh/id_rsa
 
   Setup_script:
-      - git config --global user.name "Sushrut1101"
-      - git config --global user.email "guptasushrut@gmail.com"
+      - git config --global user.name "SuperiorPsycho"
+      - git config --global user.email "pranjal.loner@gmail.com"
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
@@ -134,8 +134,8 @@ task:
       - chmod 600 ~/.ssh/id_rsa
 
   Setup_script:
-      - git config --global user.name "Sushrut1101"
-      - git config --global user.email "guptasushrut@gmail.com"
+      - git config --global user.name "SuperiorPsycho"
+      - git config --global user.email "pranjal.loner@gmail.com"
       - cd DumprX
       - echo "$GITLAB_TOKEN" > .gitlab_token
       - echo "$GITLAB_GROUP" > .gitlab_group
